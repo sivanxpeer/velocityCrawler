@@ -3,7 +3,7 @@ import './Navbar.css';
 
 import imgLogo from '../../assets/images/Velocity.png';
 
-const Navbar: FC = () => {
+const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
 
   return (
