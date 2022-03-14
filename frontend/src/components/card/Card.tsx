@@ -17,9 +17,18 @@ const Cards = ({ personDetails }: IProps): JSX.Element => {
         />
         <h2 className="card-title">startup</h2>
         <p className="card_discription">this is a company </p>
-        <button className="btn">✅</button>
-        <button className="btn">X</button>
-        <button className="btn">⭐️</button>
+        <p className="card_dates">date </p>
+        <p className="card_email">email</p>
+        <p className="card_name">person name</p>
+        <p className="card_tags">tags </p>
+        <div className="btn-box">
+          <button className="btn">✅</button>
+          <button className="btn">X</button>
+          <button className="btn">⭐️</button>
+          <button className="btn">💬</button>
+
+          {/* <textarea className="comments" /> */}
+        </div>
       </div>
     </div>
   );
