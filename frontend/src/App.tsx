@@ -7,14 +7,10 @@ import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-<<<<<<< HEAD
-      <BrowserRouter>
-        <CardList />
-      </BrowserRouter>
-=======
-     <Navbar></Navbar>
->>>>>>> main
+    <div className='App'>
+      {/* <BrowserRouter> */}
+      <CardList />
+      {/* </BrowserRouter> */}
     </div>
   );
 }
