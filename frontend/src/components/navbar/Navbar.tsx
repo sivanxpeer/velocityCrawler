@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+import React from 'react';
+
+const Navbar = (): JSX.Element => {
+  return <div>Navbar</div>;
+=======
 import React, { FC, useState } from "react";
 import "./Navbar.css";
 
@@ -27,6 +33,7 @@ const Navbar: FC = () => {
       </ul>
     </>
   );
+>>>>>>> main
 };
 
 export default Navbar;
