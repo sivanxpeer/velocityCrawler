@@ -1,0 +1,27 @@
+.wrapper{
+    display: grid;
+    /* grid-template-columns: auto(auto-fit, minmax(100rem,20rem));
+    gap:5rem; */
+    justify-content: center;
+    /* border:red 2px solid;    */
+}
+.card{
+    height: 20rem;
+    width:20rem;
+    border: 2px red solid;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    cursor: pointer;
+}
+.card-title{
+    padding:1rem;
+}
+.avatar{
+    border-radius: 50%;
+    height:3rem;
+    width:3rem;
+    margin-top:18px;
+    margin-left:18px;
+    border:2px pink solid;
+}
