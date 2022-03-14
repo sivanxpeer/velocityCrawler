@@ -1,7 +1,7 @@
-import React, { FC, useState } from "react";
-import "./Navbar.css";
+import React, { FC, useState } from 'react';
+import './Navbar.css';
 
-import imgLogo from "../../assets/images/Velocity.png";
+import imgLogo from '../../assets/images/Velocity.png';
 
 const Navbar: FC = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -11,7 +11,7 @@ const Navbar: FC = () => {
       <ul className="navbar">
         <div className="navbar-left">
           <li className="navbar-item">
-            <i className={isClicked ? "X" : "fa fa-bars"}></i>
+            <i className={isClicked ? 'X' : 'fa fa-bars'}></i>
           </li>
           <li className="navbar-item">
             <img className="logo" src={imgLogo} />
