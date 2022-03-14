@@ -4,6 +4,10 @@
   box-sizing:0;
 }
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
 }
 

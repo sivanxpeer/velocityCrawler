@@ -1,0 +1,37 @@
+
+
+.navbar{
+    width:390px;
+    height: 56px;
+    background: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-left{
+    display:flex;
+}
+
+.navbar-right{
+    display:flex;
+}
+
+.logo{
+    width: 34px;
+    height:21px;
+}
+
+.navbar-item{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    padding: 10px;
+}
+
+.login{
+    color:#3B49DF;
+    border: 1px solid #3B49DF;
+    margin-right: 5px;
+}
+
