@@ -1,0 +1,14 @@
+.nav-filter{
+    background-color: #F5F5F5;
+    height:43px;
+}
+.nav-filter-list{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin:auto;
+    gap:15px;
+    padding:10px;
+    cursor: pointer;
+}

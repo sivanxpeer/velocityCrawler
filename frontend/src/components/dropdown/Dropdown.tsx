@@ -1,13 +1,28 @@
 import React from 'react';
 import './Dropdown.css';
 
-const Dropdown = () => {
+type IProps = {
+    setIsClicked: (value: boolean) => void ;
+}
+
+const Dropdown= ({setIsClicked}:IProps) => {
+const closeMenu = ()=>{
+    setIsClicked(false);
+}
   return (
     <div className="dropdown">
+<<<<<<< HEAD
       <div className="dropdown-header">
         <div>
           <strong>LAB - L</strong>inkedin <strong>A</strong>uto{' '}
           <strong>B</strong>ot
+=======
+        <div className="dropdown-header">
+            <div><strong>LAB - L</strong>inkedin <strong>A</strong>uto <strong>B</strong>ot</div>
+            {/* <div>X</div> */}
+            <i className="fa fa-times" aria-hidden="true" onClick={closeMenu}></i>
+
+>>>>>>> main
         </div>
         {/* <div>X</div> */}
         <i className="fa fa-times" aria-hidden="true"></i>
