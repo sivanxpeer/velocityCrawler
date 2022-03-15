@@ -6,6 +6,7 @@
   position: absolute;
   margin-right: 58px;
   top: 0;
+  z-index:3;
   /* left: 0; */
 }
 
