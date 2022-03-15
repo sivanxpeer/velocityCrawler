@@ -25,7 +25,7 @@ const Navbar = () => {
           <li className="navbar-item login">Login</li>
         </div>
       </ul>
-      <Dropdown></Dropdown>
+      {/* <Dropdown></Dropdown> */}
     </>
   );
 };
