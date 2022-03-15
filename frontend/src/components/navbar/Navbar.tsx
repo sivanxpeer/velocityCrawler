@@ -1,7 +1,8 @@
-import React, { FC, useState } from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 import imgLogo from '../../assets/images/Velocity.png';
+import Dropdown from '../dropdown/Dropdown';
 
 const Navbar = () => {
   const [isClicked, setIsClicked] = useState(false);
@@ -19,12 +20,12 @@ const Navbar = () => {
         </div>
         <div className="navbar-right">
           <li className="navbar-item">
-            {/* <i className="fa-solid fa-magnifying-glass"></i> */}
-            🔎
+            <i className="fa fa-search"></i>
           </li>
           <li className="navbar-item login">Login</li>
         </div>
       </ul>
+      <Dropdown></Dropdown>
     </>
   );
 };
