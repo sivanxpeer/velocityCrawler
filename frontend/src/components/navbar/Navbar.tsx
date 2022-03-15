@@ -15,19 +15,17 @@ const Navbar = () => {
             <i className={isClicked ? "X" : "fa fa-bars"}></i>
           </li>
           <li className="navbar-item">
-            {/* <img className="logo" src={imgLogo} /> */}
             <img className="logo" src={imgLogo} />
           </li>
         </div>
         <div className="navbar-right">
           <li className="navbar-item">
-            {/* <i className="fa-solid fa-magnifying-glass"></i> */}
-            🔎
+            <i className="fa fa-search"></i>
           </li>
           <li className="navbar-item login">Login</li>
         </div>
       </ul>
-        <Dropdown></Dropdown>
+      <Dropdown></Dropdown>
     </>
   );
 };

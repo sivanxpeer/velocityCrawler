@@ -1,0 +1,48 @@
+export interface Startup {
+  _id: string,
+  name: string,
+  company: string,
+  position: string,
+  email: string,
+  dateScraped: Date,
+  comment: string,
+  avatar: string,
+  tags: string[],
+  isDeleted: boolean,
+  isStared: boolean,
+  isMarked: boolean,
+  isScraped: boolean,
+}
+
+const startupsData: Startup[] = [
+  { _id: "1",
+    name: "Dwayne Johnson",
+    company: "startup",
+    position: "CEO & Co-Founder at stealth mode startup",
+    email: "dwaynej@gmail.com",
+    dateScraped: new Date(),
+    comment: "comment",
+    avatar: "image1",
+    tags: ["ceo", "cofounder"],
+    isDeleted: false,
+    isStared: false,
+    isMarked: false,
+    isScraped: false,
+  },
+  { _id: "2",
+    name: "Dwayne Johnson",
+    company: "two",
+    position: "CEO & Co-Founder at stealth mode startup",
+    email: "dwaynej@gmail.com",
+    dateScraped: new Date(),
+    comment: "comment",
+    avatar: "image1",
+    tags: ["ceo", "cofounder"],
+    isDeleted: false,
+    isStared: false,
+    isMarked: false,
+    isScraped: false,
+  }
+]
+
+export default startupsData;
