@@ -31,10 +31,7 @@ const Navbar = (props: any) => {
           <li className="navbar-item login">Login</li>
         </div>
       </ul>
-<<<<<<< HEAD
-=======
       {isClicked && <Dropdown setIsClicked={setIsClicked} />}
->>>>>>> main
       {/* <Dropdown></Dropdown> */}
     </>
   );
