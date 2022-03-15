@@ -7,19 +7,23 @@
 
  .wrapper{
     display: grid;
-    /* grid-template-columns: auto(auto-fit, minmax(100rem,20rem));
-    gap:5rem; */
+    /* margin-top:60px; */
     justify-content: center;
 }
 
 .card{
-     /* height: 25rem; */
-    width:20rem; 
+    height:177px;
+    width:370px; 
     border: 2px red solid;
     display:flex;
     flex-direction: column;
     justify-content:center;
     cursor: pointer;
+}
+.card-body{
+    border:2px solid green ;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-title{
