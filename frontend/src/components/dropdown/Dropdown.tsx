@@ -11,21 +11,19 @@ const closeMenu = ()=>{
 }
   return (
     <div className="dropdown">
-<<<<<<< HEAD
       <div className="dropdown-header">
         <div>
           <strong>LAB - L</strong>inkedin <strong>A</strong>uto{' '}
           <strong>B</strong>ot
-=======
         <div className="dropdown-header">
             <div><strong>LAB - L</strong>inkedin <strong>A</strong>uto <strong>B</strong>ot</div>
             {/* <div>X</div> */}
             <i className="fa fa-times" aria-hidden="true" onClick={closeMenu}></i>
 
->>>>>>> main
         </div>
         {/* <div>X</div> */}
         <i className="fa fa-times" aria-hidden="true"></i>
+      </div>
       </div>
       <ul className="dropdown-list">
         <li className="dropdown-list-item">Home</li>
