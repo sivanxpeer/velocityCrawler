@@ -9,7 +9,9 @@
   z-index:3;
   /* left: 0; */
 }
-
+.fa-times{
+    cursor:pointer;
+}
 .dropdown-header {
   display: flex;
   justify-content: space-between;
@@ -24,6 +26,7 @@
   list-style: none;
   margin: 25px auto;
   padding: 3px;
+  cursor:pointer;
 }
 .dropdown-list-item:nth-last-child(1) {
   border: 1px solid #3b49df;

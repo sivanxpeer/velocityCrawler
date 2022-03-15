@@ -29,6 +29,7 @@
   height: 100%;
   list-style: none;
   padding: 10px;
+  cursor: pointer;
 }
 
 .login {
