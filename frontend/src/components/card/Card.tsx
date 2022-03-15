@@ -1,9 +1,10 @@
 import React from 'react';
 import '../card/Card.css';
-import { IPerson } from '../cardsLists/CardsLists';
+import {Startup} from "../../../../backend/mockData";
+
 
 interface IProps {
-  personDetails: IPerson;
+  personDetails: Startup;
 }
 
 const Cards = ({ personDetails }: IProps): JSX.Element => {

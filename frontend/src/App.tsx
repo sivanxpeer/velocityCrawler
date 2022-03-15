@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
       <Navbar></Navbar>
       {/* <BrowserRouter> */}
-      {/* <CardList /> */}
+      <CardList />
       {/* </BrowserRouter> */}
     </div>
   );

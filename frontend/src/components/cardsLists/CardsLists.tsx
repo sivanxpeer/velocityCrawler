@@ -1,35 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import Card from '../card/Card';
-
-export interface IPerson {
-  name: string;
-  lastNameL: string;
-  title: string;
-  company: string;
-  position: string[];
-}
-
-const fakeData: IPerson[] = [
-  {
-    name: 'dokfa',
-    lastNameL: 'string',
-    title: 'string',
-    company: 'string',
-    position: ['fsadf', 'dovgjs'],
-  },
-  {
-    name: 'dokfa',
-    lastNameL: 'string',
-    title: 'string',
-    company: 'string',
-    position: ['fsadf', 'dovgjs'],
-  },
-];
+import myApi from "../../api/Api";
+import {Startup} from "../../../../backend/mockData";
 
 const CardsLists = (): JSX.Element => {
   const [companiesData, setCompaniesData] = useState([]);
-  const displayCards = fakeData.map((person: IPerson) => {
-    return <Card personDetails={person} />;
+
+  useEffect(() => {
+  const getStartupsData = async () => {
+    try {
+      const { data } = await myApi.get("/startups");
+      console.log(data); 
+      setCompaniesData(data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  getStartupsData();
+  }, []);
+
+  const displayCards = companiesData.map((person) => {
+    return <Card personDetails={person} />
   });
   return <div>{displayCards}</div>;
 };
