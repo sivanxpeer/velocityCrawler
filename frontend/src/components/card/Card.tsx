@@ -1,9 +1,10 @@
 import React from 'react';
 import '../card/Card.css';
-import { IPerson } from '../cardsLists/CardsLists';
+// import { IPerson } from '../cardsLists/CardsLists';
+import { Startup } from '../../../../backend/mockData';
 
 interface IProps {
-  personDetails: IPerson;
+  personDetails: Startup;
 }
 
 const Cards = ({ personDetails }: IProps): JSX.Element => {
@@ -15,12 +16,12 @@ const Cards = ({ personDetails }: IProps): JSX.Element => {
           className="avatar"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS66EeVBELXd8Ei_r6RXEJ9FCisZnndVQHbHA&usqp=CAU"
         />
-        <h2 className="card-title">startup</h2>
-        <p className="card_discription">this is a company </p>
-        <p className="card_dates">date </p>
-        <p className="card_email">email</p>
-        <p className="card_name">person name</p>
-        <p className="card_tags">tags </p>
+        <h2 className="card-title">{personDetails.name}</h2>
+        <p className="card_name">{personDetails.position}</p>
+        <p className="card_dates">{personDetails.dateScraped} </p>
+        <p className="card_email">{personDetails.email}</p>
+        <p className="card_tags">{personDetails.tags}</p>
+        <p className="card_tags">{personDetails.comment}</p>
         <div className="btn-box">
           <button className="btn">✅</button>
           <button className="btn">X</button>

@@ -1,11 +1,11 @@
-import React from "react";
-import Navbar from "../navbar/Navbar";
-import "./WelcomePage.css";
-import mainImg from "../../assets/images/mainImage.jpeg";
-import CardsLists from "../cardsLists/CardsLists";
-import NavFilter from "../navFilter/NavFilter";
+import React from 'react';
+import Navbar from '../navbar/Navbar';
+import './WelcomePage.css';
+import mainImg from '../../assets/images/mainImage.jpeg';
+import CardsLists from '../cardsLists/CardsLists';
+import NavFilter from '../navFilter/NavFilter';
 
-const WelcomPage = () => {
+const WelcomePage = () => {
   return (
     <div className="welcome-page">
       <Navbar></Navbar>
@@ -23,9 +23,9 @@ const WelcomPage = () => {
           </div>
         </div>
       </div>
-    <CardsLists></CardsLists>
+      <CardsLists></CardsLists>
     </div>
   );
 };
 
-export default WelcomPage;
+export default WelcomePage;
