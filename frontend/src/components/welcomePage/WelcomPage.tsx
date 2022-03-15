@@ -3,11 +3,13 @@ import Navbar from "../navbar/Navbar";
 import "./WelcomePage.css";
 import mainImg from "../../assets/images/mainImage.jpeg";
 import CardsLists from "../cardsLists/CardsLists";
+import NavFilter from "../navFilter/NavFilter";
 
 const WelcomPage = () => {
   return (
     <div className="welcome-page">
       <Navbar></Navbar>
+      <NavFilter></NavFilter>
       <div className="mainImg-container">
         <img className="mainImg" src={mainImg}></img>
         <div className="mainImg-text-container">
