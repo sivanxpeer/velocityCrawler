@@ -1,0 +1,34 @@
+.dropdown {
+  width: 331px;
+  height: 100%;
+  background-color: rgba(245, 245, 245, 0.98);
+  color: black;
+  position: absolute;
+  margin-right: 58px;
+  top: 0;
+  /* left: 0; */
+}
+
+.dropdown-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.dropdown-list-item {
+  width: 289px;
+  border-bottom: 1.5px solid white;
+  box-shadow: 0px 1.5px lightgrey;
+  font-weight: bold;
+  list-style: none;
+  margin: 25px auto;
+  padding: 3px;
+}
+.dropdown-list-item:nth-last-child(1) {
+  border: 1px solid #3b49df;
+  font-weight: 700;
+  color: #3b49df;
+  width: 289px;
+  margin: 87px auto;
+  padding: 2%;
+}
