@@ -7,7 +7,7 @@
     "tsc": "tsc",
     "start": "ts-node ./backend/src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "copy": "cp -r client/build server/",
+    "copy": "cp -r frontend/build backend/",
     "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm run copy"
   },
   "author": "",
