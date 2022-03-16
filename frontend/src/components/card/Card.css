@@ -7,41 +7,106 @@
 
  .wrapper{
     display: grid;
-    /* margin-top:60px; */
+    width:390px; 
+    height:177.56px;
+    margin-top:18px;
+    /* height:90px; */
     justify-content: center;
-}
-
-.card{
-    height:177px;
-    width:370px; 
-    border: 2px red solid;
+    border-bottom: 10px solid #F5F5F5;
     display:flex;
     flex-direction: column;
     justify-content:center;
     cursor: pointer;
-}
-.card-body{
-    border:2px solid green ;
-    display: flex;
-    justify-content: space-between;
+
 }
 
-.card-title{
-    padding:1rem;
+.card-body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /* border:2px solid green ; */
+}
+.card-links-container{
+    display: flex;
+    margin: 0 17px 14px 17px;
+    /* justify-content:flex-start; */
+}
+.card-links{
+    color:#3B49DF;
+    margin-left:-12px;
+}
+.card-box-1{
+    display:flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-start; */
+    align-items:center;
+    width:100%;
+    height:50%;
+    /* border:1px solid orange ; */
+}
+.card-details{
+    padding: 3%;
+    font-size: 14px;
+    display:flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    /* margin-top:18px; */
 }
 
 .avatar{
     border-radius: 50%;
     height:3rem;
     width:3rem;
-    margin-top:18px;
-    margin-left:18px;
-    border:2px pink solid;
+    /* margin-top:12px; */
+    /* align-self: center; */
+    margin:17px 0 17px 17px;
+}
+.card_date{
+    font-size:11px;
+}
+.card_name{
+    font-size:14px;
+}
+.card_position{
+    font-size:16px;
+    font-weight: bold;
+    margin-right: 24px;
+    padding: 0 2px;
+}
+.card-box-2{
+    /* margin-top:10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    /* align-items:center; */
+    gap:8px
+}
+.btn-box{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    /* border:1px solid blue; */
+    padding:2%;
+}
+.btn-box-right{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
 }
 .btn{
     width:30px;
 }
-.btn-box{
-    display:flex;
-    justify-content:center;
+
+.card-title{
+    padding:1rem;
+}
+
+.card_tags{
+    align-self: flex-start;
+    font-size: 10px;
+    margin:0 17px;
 }
