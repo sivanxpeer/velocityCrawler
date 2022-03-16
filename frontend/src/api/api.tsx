@@ -1,11 +1,4 @@
 import axios from 'axios';
-// let myURL = 'http://localhost:3000/api';
-// if (process.env.NODE_ENV === 'production') {
-//   myURL = '/';
-// }
-
-// import axios from 'axios';
-
 let url = 'http://localhost:5000/api';
 if (process.env.NODE_ENV === 'production') {
   url = 'https://velocity-crawler-app.herokuapp.com/api';
@@ -13,3 +6,10 @@ if (process.env.NODE_ENV === 'production') {
 export default axios.create({
   baseURL: url,
 });
+
+// let myURL = 'http://localhost:3000/api';
+// if (process.env.NODE_ENV === 'production') {
+//   myURL = '/';
+// }
+
+// import axios from 'axios';
