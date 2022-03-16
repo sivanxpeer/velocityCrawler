@@ -8,8 +8,7 @@
     "start": "ts-node ./backend/src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "copy": "cp -r frontend/build backend/",
-    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm run copy",
-    "postinstall": "ng build"
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm run copy"
   },
   "author": "",
   "license": "ISC",
