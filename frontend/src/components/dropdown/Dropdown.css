@@ -35,4 +35,9 @@
   width: 289px;
   margin: 87px auto;
   padding: 2%;
+  border-radius: 4px;
+}
+.link-item{
+  color: black;
+  text-decoration: none;  
 }
