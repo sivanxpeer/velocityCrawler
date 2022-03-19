@@ -97,10 +97,6 @@
     justify-content:flex-end;
     gap:10px;
 }
-.btn{
-    width:30px;
-}
-
 .card-title{
     padding:1rem;
 }
